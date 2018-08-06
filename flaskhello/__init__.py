@@ -13,4 +13,4 @@ def index():
     return 'hello world'
 
 
-import server
+from . import server
