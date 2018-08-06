@@ -13,4 +13,4 @@ def index():
     return 'hello world'
 
 
-from . import server
+from flaskhello import server
