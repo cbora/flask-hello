@@ -8,6 +8,9 @@ application = app = Flask(__name__)
 
 
 
-@application.route('/')
+#@application.route('/')
 def index():
     return 'hello world'
+
+
+import server
