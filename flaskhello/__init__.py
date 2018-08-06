@@ -4,13 +4,9 @@ from flask_login import LoginManager
 import os
 
 
-application = app = Flask(__name__)
+import application
+
+app = application.application
 
 
-
-#@application.route('/')
-def index():
-    return 'hello world'
-
-
-from flaskhello import server
+import server
