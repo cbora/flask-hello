@@ -8,7 +8,7 @@ sys.path.append('..')
 
 import application
 
-app = application.application
+#app = application.application
 
 
 #import server
