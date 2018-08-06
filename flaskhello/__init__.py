@@ -6,7 +6,7 @@ import os
 import sys
 sys.path.append('..')
 
-import application.application
+from application import application
 
 #app = application.application
 
