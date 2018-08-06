@@ -9,6 +9,9 @@ sys.path.append('..')
 from application import application
 
 #app = application.application
+@application.route('/')
+def h():
+    return 'hello'
 
 
 #import server
